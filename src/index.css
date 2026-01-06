@@ -1,0 +1,140 @@
+:root {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  background-color: #242424;
+  color: white;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+.MuiTypography-root {
+  font-family: "BurbankBigCondensed-Bold" !important;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #a031f7;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.slick-next,
+.slick-prev {
+  display: none !important;
+}
+
+#menu > div > .MuiTabs-flexContainer {
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  /* .slick-slider .slick-list {
+    display: flex;
+    justify-content: center;
+  } */
+}
+.MuiListItemButton-root.Mui-selected {
+  background: #a031f7 !important;
+  border: 3px solid #ffffff !important;
+  border-radius: 8px !important;
+  display: flex;
+  justify-content: space-between;
+}
+/* .MuiListItemButton-root {
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+} */
+.MuiPopover-paper {
+  box-shadow: none !important;
+  background-color: #15131600 !important;
+}
+.MuiSelect-icon {
+  color: rgb(255 255 255) !important;
+}
+.MuiMenu-list {
+  width: 225px;
+}
+.react-confirm-alert-overlay {
+  animation-delay: 0.1s;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+}
+
+.react-confirm-alert {
+  background: "transparent";
+  color: rgba(230, 230, 230, 1);
+  border-radius: 10px;
+  border: none;
+  box-shadow: none;
+  left: 50%;
+  max-width: 500px;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-ui {
+  background-color: #242424;
+  border: 3px solid #ffffff !important;
+  border-radius: 8px !important;
+  padding: 2rem;
+  min-width: 500px;
+}
+
+@media (max-width: 680px) {
+  .modal-ui {
+    min-width: 350px;
+  }
+}
+.modal-p {
+  font-family: "Roboto-Regular" !important;
+  font-weight: 400 !important;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.modal-primary-text {
+  color: #a031f7 !important;
+}
+
+.button-modal-contained {
+  background-color: #a031f7 !important;
+}
+
+.button-modal-text {
+  color: #a031f7 !important;
+  margin-right: 1rem !important;
+}
+.Toastify__toast-body {
+  font-size: 1rem;
+}
+
+.mat-table .material-icons {
+  color: white !important;
+}
+.mat-table .MuiTableCell-root {
+  border-bottom: 1px solid #a031f7;
+}

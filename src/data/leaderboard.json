@@ -1,0 +1,32 @@
+[
+  {
+    "select": true,
+    "address": "0xb211g442456d000000cfde09379c88e6rccj142",
+    "val": "3581.55"
+  },
+  {
+    "select": true,
+    "address": "0xb211g442456d000000cfde09379c88e6rccj142",
+    "val": "3581.55"
+  },
+  {
+    "select": true,
+    "address": "0xb211g442456d000000cfde09379c88e6rccj142",
+    "val": "3581.55"
+  },
+  {
+    "select": true,
+    "address": "0xb211g442456d000000cfde09379c88e6rccj142",
+    "val": "3581.55"
+  },
+  {
+    "select": false,
+    "address": "0xb211g442456d000000cfde09379c88e6rccj142",
+    "val": "3581.55"
+  },
+  {
+    "select": false,
+    "address": "0xb211g442456d000000cfde09379c88e6rccj142",
+    "val": "3581.55"
+  }
+]

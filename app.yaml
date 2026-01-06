@@ -1,0 +1,16 @@
+runtime: nodejs16
+env: standard
+instance_class: F1
+service: default
+handlers:
+  - url: /assets
+    static_dir: dist/assets
+    secure: always
+  - url: /(.*\.(json|ico|js))$
+    static_files: dist/\1
+    upload: dist/.*\.(json|ico|js)$
+    secure: always
+  - url: .*
+    static_files: dist/index.html
+    upload: dist/index.html
+    secure: always

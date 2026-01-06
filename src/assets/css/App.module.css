@@ -1,0 +1,55 @@
+/* @font-face {
+  font-family: "SpaceGrotesk-Light";
+  src: url("@/assets/fonts/SpaceGrotesk-Light.ttf");
+}
+
+
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url(../../../src/assets/fonts/SpaceGrotesk-Regular.ttf);
+}
+
+@font-face {
+  font-family: "SpaceGrotesk-Medium";
+  src: url(../../../src/assets/fonts/SpaceGrotesk-Medium.ttf);
+}
+ */
+
+@font-face {
+  font-family: "BurbankBig-Regular";
+  src: url(../../../src/assets/fonts/BurbankBig-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("@/assets/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "BurbankBigCondensed-Bold";
+  src: url(../../../src/assets/fonts/BurbankBigCondensed-Bold.otf);
+}
+
+/* Primary Color */
+body,
+html {
+  line-height: 1;
+  height: 100%;
+  font-family: "BurbankBigCondensed-Bold" !important;
+}
+body {
+  font-size: 24px;
+  background-color: rgb(32 34 33);
+  font-family: "BurbankBigCondensed-Bold";
+  -webkit-font-smoothing: antialiased;
+}
+a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 300px) {
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
