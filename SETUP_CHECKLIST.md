@@ -32,6 +32,7 @@ cp .env.example .env
 - `VITE_API_KEY`: API key from your backend.
 - `VITE_GOOGLE_CLIENT_ID`: For Google OAuth.
 - `VITE_APP_ENV`: Set to `dev` or `prod`.
+- `VITE_PORT`: (Optional) Port to run the dev server on (default: 8080).
 
 ## 4. Running the Application
 

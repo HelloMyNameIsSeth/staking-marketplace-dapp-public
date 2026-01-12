@@ -50,7 +50,7 @@ A modern Web3 DApp built with React, Vite, and Ethereum technologies, featuring 
    npm run dev
    ```
 
-   Access at `http://localhost:5173`
+   Access at `http://localhost:8080` or set port in .env
 
 ## Structure
 
